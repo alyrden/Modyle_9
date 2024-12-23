@@ -1,17 +1,17 @@
+from ctypes import HRESULT
+
+
 def apply_all_func(self, int_list, *functions):
     result = {}
-
-    self.int_list = list(int_list)
-    self.__functions = map(functions)
-
     for i in functions:
-        result += i
-        return result
+        result[i.__name__] = i(int_list)
+    return result
 
-def min(list):
-    if not list:
+
+def min(lst):
+    if not lst:
         raise ValueError("Список пуст")
-    min = 0
+    min = lst[0]
     for i in min:
         if i <= min:
             min = i
