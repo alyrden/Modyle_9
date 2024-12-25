@@ -1,45 +1,44 @@
-from ctypes import HRESULT
 
-
-def apply_all_func(self, int_list, *functions):
+def apply_all_func(int_list, *functions):
     result = {}
+
     for i in functions:
         result[i.__name__] = i(int_list)
     return result
+    print(result)
 
-
-def min(lst):
-    if not lst:
+def min(int_list):
+    if not int_list:
         raise ValueError("Список пуст")
-    min = lst[0]
-    for i in min:
-        if i <= min:
+    min = int_list[0]
+    for i in int_list:
+        if i < min:
             min = i
-            return min
+    return min
 
-def max(list):
-    if not list:
+def max(int_list):
+    if not int_list:
         raise ValueError("Список пуст")
-    max = 0
-    for i in max:
-        if i >= max:
+    max = int_list[0]
+    for i in int_list:
+        if i > max:
             max = i
-            return max
+    return max
 
-def len(list):
+def len(int_list):
     count =0
-    for i in list:
+    for i in int_list:
         count += 1
-        return count
+    return count
 
-def sum(list):
+def sum(int_list):
     total = 0
-    for i in list:
+    for i in int_list:
         total += i
-        return total
+    return total
 
-def sorted(list):
-    new_list = list[:]
+def sorted(int_list):
+    new_list = int_list[:]
     for i in range(len(new_list)):
         for j in range(len(new_list) - i - 1):
             if new_list[j] > new_list[j + 1]:
