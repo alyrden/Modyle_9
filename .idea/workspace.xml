@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44641c7-57f6-40f7-a966-e6ae09bdcbc9" name="Changes" comment="9">
+      <change afterPath="$PROJECT_DIR$/Modyle_9.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modyle_9.3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modyle_9.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modyle_9.1.py" afterDir="false" />
     </list>
@@ -47,6 +49,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Modyle_9.1.executor": "Run",
+    "Python.Modyle_9.2.executor": "Run",
+    "Python.Modyle_9.3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -109,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734986257486</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="9">
+      <option name="closed" value="true" />
+      <created>1735158820659</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735158820659</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
