@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44641c7-57f6-40f7-a966-e6ae09bdcbc9" name="Changes" comment="9">
-      <change afterPath="$PROJECT_DIR$/Modyle_9.4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modyle_9.5.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modyle_9.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modyle_9.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modyle_9.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modyle_9.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modyle_9.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modyle_9.4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
     &quot;Python.Modyle_9.2.executor&quot;: &quot;Run&quot;,
     &quot;Python.Modyle_9.3.executor&quot;: &quot;Run&quot;,
     &quot;Python.Modyle_9.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Modyle_9.5.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -131,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735582794286</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="9">
+      <option name="closed" value="true" />
+      <created>1735768178403</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735768178403</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

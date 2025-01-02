@@ -19,7 +19,7 @@ def min(int_list):
 def max(int_list):
     if not int_list:
         raise ValueError("Список пуст")
-    max = int_list[0]
+    max = 0
     for i in int_list:
         if i > max:
             max = i
